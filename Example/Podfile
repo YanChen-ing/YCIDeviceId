@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YCIDeviceId_Example' do
+  pod 'YCIDeviceId', :path => '../'
+
+  target 'YCIDeviceId_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

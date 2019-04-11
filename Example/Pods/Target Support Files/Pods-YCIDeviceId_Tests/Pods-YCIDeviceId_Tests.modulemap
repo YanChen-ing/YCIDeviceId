@@ -1,0 +1,6 @@
+framework module Pods_YCIDeviceId_Tests {
+  umbrella header "Pods-YCIDeviceId_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

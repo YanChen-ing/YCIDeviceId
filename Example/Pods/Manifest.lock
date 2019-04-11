@@ -1,0 +1,16 @@
+PODS:
+  - YCIDeviceId (0.1.0)
+
+DEPENDENCIES:
+  - YCIDeviceId (from `../`)
+
+EXTERNAL SOURCES:
+  YCIDeviceId:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCIDeviceId: 8b7c35e7065d907889b9560ac86bf2e8de862a10
+
+PODFILE CHECKSUM: b2f28655fdc985026fe35399c9648f2d6dd6cef8
+
+COCOAPODS: 1.6.1
