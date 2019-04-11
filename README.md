@@ -2,28 +2,22 @@
 
 <!--[![CI Status](https://img.shields.io/travis/YanChen-ing/YCIDeviceId.svg?style=flat)](https://travis-ci.org/YanChen-ing/YCIDeviceId)-->
 [![Version](https://img.shields.io/cocoapods/v/YCIDeviceId.svg?style=flat)](https://cocoapods.org/pods/YCIDeviceId)
-[![License](https://img.shields.io/cocoapods/l/YCIDeviceId.svg?style=flat)](https://cocoapods.org/pods/YCIDeviceId)
-[![Platform](https://img.shields.io/cocoapods/p/YCIDeviceId.svg?style=flat)](https://cocoapods.org/pods/YCIDeviceId)
+[![License](https://img.shields.io/cocoapods/l/YCIDeviceId.svg?style=flat)](https://github.com/YanChen-ing/YCIDeviceId/blob/master/README.md)
+[![Platform](https://img.shields.io/cocoapods/p/YCIDeviceId.svg?style=flat)](https://github.com/YanChen-ing/YCIDeviceId/)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+获取统一的设备id，基于UICKeyChain
 
-## Installation
+## 特性
 
-YCIDeviceId is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+- [x] 生成获取存储在 keychain 中的 设备id  
+- [x] 钥匙串中 id 相对稳定， 在不切换 appleID 的情况下，不会改变。
+
+
+## 安装
 
 ```ruby
 pod 'YCIDeviceId'
 ```
 
-## Author
-
-YanChen-ing, workforyc@163.com
-
-## License
-
-YCIDeviceId is available under the MIT license. See the LICENSE file for more info.
